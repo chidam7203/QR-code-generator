@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+h1{
+    color:red;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 4px 5px 5px black;
+}
+input{
+    height: 35px;
+    width: 248px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+input:hover{
+    border-color:blue;
+
+}
+.qrcode-container{
+    display: flex;
+    margin: 0px auto;
+}
+
+button{
+    padding: 10px;
+    width: 248px;
+    background-color: blue;
+    color: white;
+    border-radius:10px;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+@media only screen and (max-width:767px){
+    h1{
+        color:red;
+        font-weight: 650;
+        font-size: 30px;
+        text-shadow: 4px 5px 5px black;
+    }
+
+    body{
+        background-image: url("images/bg1.webp");
+        background-size: cover;
+        height:700px;
+        background-repeat: no-repeat;
+    }
+
+}
